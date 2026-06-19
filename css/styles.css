@@ -22,6 +22,7 @@ img {
 /* Tu código va aquí */
 body {
   font-size: 1.6rem;
+  background-color: #f9f8f5;
 }
 .bg-black {
   background-color: #1a1a1a;
@@ -300,11 +301,92 @@ body {
   height: 2rem;
   border-radius: 0.5rem;
   border: none;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .card-precio button:hover {
   background-color: #c0392b;
+}
+
+.productos-favoritos {
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  border-top: 0.1rem solid #e0ddd5;
+  border-bottom: 0.1rem solid #e0ddd5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.favoritos-introduccion {
+  flex-basis: 28rem;
+  flex-shrink: 0;
+  margin-right: 4.8rem;
+}
+
+.favoritos-introduccion span {
+  color: #c0392b;
+  font-size: 1rem;
+}
+
+.favoritos-introduccion h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.favoritos-introduccion p {
+  font-size: 1.2rem;
+  color: #555555;
+  line-height: 1.7;
+}
+.favoritos-derecha {
+  flex: 1;
+}
+
+.favorito-imagen {
+  display: flex;
+  align-items: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+.ultimo-favorito {
+  border-bottom: none;
+}
+
+.favorito-imagen img {
+  width: 5.2rem;
+  height: 5.2rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin-right: 1.4rem;
+}
+
+.favorito-info span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.favorito-info small {
+  font-size: 1.1rem;
+  color: #555555;
+}
+
+.favorito-extra {
+  margin-left: auto;
+  text-align: right;
+}
+
+.favorito-extra span {
+  color: #c0392b;
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: block;
+}
+
+.favorito-extra small {
+  font-size: 1rem;
+  color: #555555;
 }
