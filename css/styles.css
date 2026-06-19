@@ -456,4 +456,6 @@ body {
 
 .estadistica small {
   font-size: 1.1rem;
+  color: #555555;
+  margin-top: 0.4rem;
 }
