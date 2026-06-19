@@ -390,3 +390,70 @@ body {
   font-size: 1rem;
   color: #555555;
 }
+
+.sobre-nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+}
+
+.sobre-nosotros-descripcion {
+  flex-basis: 45%;
+}
+
+.sobre-nosotros-descripcion span {
+  color: #c0392b;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.sobre-nosotros-descripcion h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+.sobre-nosotros-descripcion p {
+  font-size: 1.3rem;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.sobre-nosotros-panel {
+  flex-basis: 33.33%;
+}
+
+.sobre-nosotros-panel {
+  flex-basis: 45%;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.estadistica {
+  flex-basis: 33.33%;
+  background-color: #ffffff;
+  padding: 2rem 1.6rem;
+  text-align: center;
+  border-right: 0.1rem solid #e0ddd5;
+}
+
+.ultima-estadistica {
+  border-right: none;
+}
+
+.estadistica span {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.estadistica small {
+  font-size: 1.1rem;
+}
